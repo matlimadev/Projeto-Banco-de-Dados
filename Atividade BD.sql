@@ -229,7 +229,7 @@ INSERT INTO Tentativas (equipe_id, questao_id, resposta, status) VALUES (
     1, 
     5, 
     'Bloqueios garantem integridade:
-    1) Bloqueio Compartilhado (S): permite múltiplas leituras simultâneas (LOCK IN SHARE MODE);
+    1) Bloqueio Compartilhado (S): permite múltiplas leituras simultâneas;
     2) Bloqueio Exclusivo (X): exclusivo para escrita (FOR UPDATE);
     3) Regras: 
        - Múltiplos S permitidos no mesmo item;
